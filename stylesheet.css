@@ -1,5 +1,9 @@
+body {
+	background-color: #39A0ED;
+}
+
 header {
-	background-color: #999;
+	background-color: #4C6085;
 	width: 100%;
 	height: 50px;
 	display: inline-block;
@@ -12,7 +16,7 @@ main {
 
 footer {
 	display: inline-block;
-	background-color: blue;
+	background-color: #32322C;
 	width: 100%;
 	height: 100px;
 }
@@ -32,11 +36,19 @@ header ul:hover {
 	font-size: 28px;
 }
 
+.article_title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	margin-top: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
 .article1 {
 	height: 600px;
 	width: 80%;
 	display: inline-block;
-	background-color: purple;
+	background-color: #39A0ED;
 	text-align: center;
 	margin-left: 10%;
 }
@@ -44,19 +56,19 @@ header ul:hover {
 .article2 {
 	height: 800px;
 	display: block;
-	background-color: pink;
+	background-color: #36F1CD;
 }
 
 .article3 {
 	height: 700px;
 	display: block;
-	background-color: red;
+	background-color: #13C4A3;
 }
 
 .article4 {
 	height: 300px;
 	display: block;
-	background-color: yellow;
+	background-color: #39A0ED;
 }
 
 main  p {
@@ -65,7 +77,6 @@ main  p {
 
 .about_left{
 	width: 50%;
-	background-color: #444;
 	height: 100%;
 	display: inline-block;
 	text-align: center;
@@ -81,14 +92,30 @@ main  p {
 	height: 100%;
 	display: inline-block;
 	text-align: center;
-	background-color: yellow;
+}
+
+.about_right p {
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: ;
+	text-align: left;
+	margin-top: 150px;
+	color: white;
 }
 
 .avatar {
-	width: 16%;
-	height: 100%;
+	width: 362px;
+	height: 243px;
+	transform: rotate(90deg);
+	margin-top: 170px;
+	transition: 0.3s;
 }
 
 .avatar:hover {
-	width: 100%;
+	width: 371px;
+	height: 249px;
+	margin-top: 167px;
+	transform: rotate(90deg);
+	transition: 0.3s;
+
 }
