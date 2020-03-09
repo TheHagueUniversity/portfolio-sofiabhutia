@@ -61,7 +61,7 @@ header ul:hover {
 	height: 600px;
 	width: 80%;
 	display: inline-block;
-	background-color: #39A0ED;
+	background-image: url(images/dehradun.jpg);
 	text-align: center;
 	margin-left: 10%;
 	margin-top: 50px;
@@ -91,7 +91,7 @@ header ul:hover {
 }
 
 .contextBox {
-	width: 20%;
+	width: 22%;
 	height: 50px;
 	display: inline;
 	position: relative;
@@ -112,15 +112,19 @@ header ul:hover {
 }
 
 .article3 {
-	height: 700px;
+	height: 640px;
+	width: 80%;
 	display: block;
-	background-color: #13C4A3;
+	background-image: url(images/xining.jpg);
+	margin-left: 10%;
 }
 
 .article4 {
-	height: 300px;
+	height: 440px;
+	width: 80%;
 	display: block;
-	background-color: #39A0ED;
+	background-image: url(images/thuas.jpg);
+	margin-left: 10%;
 }
 
 main  p {
