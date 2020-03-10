@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Mission return</title>
+	<link rel="stylesheet" type="text/css" href="scripts/stylesheet.css">
+	<script src="scripts/main.js" defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="scripts/TweenMax.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><ul>Back to home</ul></a>
+		</nav>
+	</header>
+	<main>		
+		<h1>We are on our way back home!</h1>
+		<section>
+			<div class="weatherContainer">
+				<h2>What is the weather like at our landing location?</h2>
+				<div class="inputField">
+					location: <input type="text" id="location" name="smth">
+					<button onclick="getWeather()" class="myButton">Get weather</button>
+				</div>
+				<div class="weatherLeft">
+					<div id="weatherImage"></div>
+					<p id="descriptionWeather"></p>
+				</div>
+				<div class="weatherRight">
+					<p id="minTemperature"></p>
+					<br>
+					<b>
+						<p id="maxTemperature"></p>
+					</b>
+					<br>
+					<p id="windSpeed"></p>
+				</div>
+			</div>
+		</section>		
+		<section>
+			<div class="jokeContainer">
+				<h2>What is earth's humour now?</h2>
+				<h3>this API sometimes returns <b>undefined</b>. Sorry for the extra clicks :(</h3>
+				<button onclick="getJoke()" class="myButton">Generate a random joke</button>
+				<div class="jokeReturn">
+					<i><p id="jokeSetup"></p></i>
+					<i><p id="jokeDelivery"></p></i>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

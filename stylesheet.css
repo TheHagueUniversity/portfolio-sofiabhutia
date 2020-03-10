@@ -292,3 +292,60 @@ main  p {
 	z-index: 1;
 
 }
+
+.description {
+	width: 80%;
+	height: auto;
+	background-color: #719c9e;
+	margin-left: 10%;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+
+.description h1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-bottom: 15px;
+	font-size: 32px;
+	margin-top: 15px;
+}
+
+.description p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.textbox {
+	width: 60%;
+	display: inline-block;
+}
+
+iframe {
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.design_img {
+	width: 700px;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.icon_row {
+	width: 24px;
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+
+.icon_row:hover {
+	width: 28px;
+	height: auto;
+	transition: 0.3s;
+}
