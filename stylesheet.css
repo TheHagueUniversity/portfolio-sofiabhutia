@@ -53,6 +53,10 @@ body {
 }
 
 ul {
+	margin: 0;
+}
+
+li {
 	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -60,9 +64,12 @@ ul {
 	margin-top: 13px;
 	color: #fff;
 	transition: 0.3s;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: -10px;
 }
 
-header ul:hover {
+header li:hover {
 	color: #111;
 	transition: 0.1s;
 }
@@ -348,4 +355,9 @@ iframe {
 	width: 28px;
 	height: auto;
 	transition: 0.3s;
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
 }
